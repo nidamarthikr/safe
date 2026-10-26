@@ -17,7 +17,7 @@ space-group preferences and distribution metrics.
 Analyse an INSTAT result directory and create CentroMK-style outputs.
 
 Usage:
-    python analyse_instat.py results/lcys_20260907_124138
+    safe-analyse-instat results/lcys_20260907_124138
 
 Expected files:
     INSTPG  numeric plot table from INSTAT
@@ -31,7 +31,7 @@ Default INSTPG column interpretation:
     3: exact centric curve
 
 If your INSTPG order differs, change it explicitly, for example:
-    python analyse_instat.py RESULTS --columns 0,1,3,2
+    safe-analyse-instat RESULTS --columns 0,1,3,2
 """
 
 from __future__ import annotations

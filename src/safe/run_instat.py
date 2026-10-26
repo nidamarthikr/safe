@@ -17,14 +17,15 @@ supported crystallographic structure files.
 Compile and run INSTAT in either of two modes.
 
 Mode 1, existing INSTAT control file plus CIF-formatted reflection file:
-    python run_instat.py --stin data/STIN --hkl data/hb5427-sup2.hkl
+    safe-run-instat --stin data/STIN --hkl data/hb5427-sup2.hkl
 
 Mode 2, generate STIN from a structure CIF, SHELX INS, or SHELX RES file,
 plus its reflection file:
-    python run_instat.py --structure data/model.res --hkl data/model.hkl
-    python run_instat.py --structure data/model.cif --hkl data/model.hkl
+    safe-run-instat --structure data/model.res --hkl data/model.hkl
+    safe-run-instat --structure data/model.cif --hkl data/model.hkl
 
-The Fortran source is always taken from src/instat.f, relative to this script.
+The bundled INSTAT Fortran source is located automatically
+within the SAFE installation.
 """
 
 from __future__ import annotations

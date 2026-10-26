@@ -22,7 +22,7 @@ Creates:
   <prefix>_shelx.hkl        raw SHELX HKLF-4 reflection file
 
 Example:
-  python prepare_ap1_files.py \
+    safe.prepare-sm \
       --stin data/sm.ins \
       --cif-hkl data/sm.hkl \
       --wavelength 0.71073 \

@@ -17,7 +17,7 @@ INSTAT analysis from MTZ or structure-factor CIF files.
 Prepare simple macromolecular inputs for run_instat.py.
 
 Usage:
-    python prepare_mx_instat.py mx_input.json
+    safe-prepare-mx mx_input.json
 
 The JSON file supplies the MTZ, FASTA, number of ASU copies, and optional
 extra elemental composition. This script writes:

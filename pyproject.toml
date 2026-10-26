@@ -11,10 +11,20 @@ dependencies = [
     "gemmi"
 ]
 
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
 [project.scripts]
-safe-run-instat = "run_instat:main"
-safe-analyse-instat = "analyse_instat:main"
-safe-prepare-sm = "prepare_sm:main"
-safe-prepare-mx = "prepare_mx:main"
-safe-fix-ins = "fix_ins:main"
+safe-run-instat = "safe.run_instat:main"
+safe-analyse-instat = "safe.analyse_instat:main"
+safe-prepare-sm = "safe.prepare_sm:main"
+safe-prepare-mx = "safe.prepare_mx:main"
+safe-fix-ins = "safe.fix_ins:main"
 
