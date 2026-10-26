@@ -1,0 +1,82 @@
+{
+  "datasets": [
+    {
+      "name": "protein_example",
+      "system_type": "protein",
+      "mtz_file": "../../protein.mtz",
+      "copies_per_asu": 2,
+      "protein_sequence": [
+        "../../protein.fasta"
+      ],
+      "dna_sequence": [],
+      "rna_sequence": [],
+      "additional_components": {}
+    },
+    {
+      "name": "protein_dna_example",
+      "system_type": "protein_dna",
+      "mtz_file": "protein_dna.mtz",
+      "copies_per_asu": 1,
+      "protein_sequence": [
+        "protein.fasta"
+      ],
+      "dna_sequence": [
+        "dna_chain_A.fasta",
+        "dna_chain_B.fasta"
+      ],
+      "rna_sequence": [],
+      "additional_components": {
+        "MG": 2
+      }
+    },
+    {
+      "name": "dna2",
+      "system_type": "dna",
+      "mtz_file": "../../../dna2.mtz",
+      "copies_per_asu": 1,
+      "protein_sequence": [],
+      "dna_sequence": [
+        "../../../dna2.fasta"
+      ],
+      "rna_sequence": [],
+      "additional_components": {}
+    },
+    {
+      "name": "dna_rna_example",
+      "system_type": "dna_rna",
+      "mtz_file": "dna_rna.mtz",
+      "copies_per_asu": 1,
+      "protein_sequence": [],
+      "dna_sequence": [
+        "dna.fasta"
+      ],
+      "rna_sequence": [
+        "rna.fasta"
+      ],
+      "additional_components": {
+        "MG": 1
+      }
+    },
+    {
+      "name": "rna_example",
+      "system_type": "rna",
+      "mtz_file": "rna.mtz",
+      "copies_per_asu": 1,
+      "protein_sequence": [],
+      "dna_sequence": [],
+      "rna_sequence": [
+        "rna.fasta"
+      ],
+      "additional_components": {}
+    },
+    {
+	"name": "dna3",
+	"system_type": "dna",
+	"sf_cif_file": "../../../dna-sf.cif",
+	"dna_sequence": ["../../../dna.fasta"],
+	"rna_sequence": [],	
+	"copies_per_asu": 1,
+	"additional_components": {"CU":1}
+	}
+  ]
+}

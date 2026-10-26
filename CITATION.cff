@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use SAFE, please cite the software and the accompanying manuscript when available."
+
+title: "SAFE: Statistical Analysis of Structure Factors and Normalised |E| Values"
+type: software
+version: 0.1.0
+license: MIT
+
+authors:
+  - family-names: "Nidamarthi"
+    given-names: "Kutumbarao"
+    email: "kutumbarao.nidamarthi@diamond.ac.uk"
+
+preferred-citation:
+  type: article
+  title: "SAFE: Statistical Analysis of Structure Factors and Normalised |E| Values for the Investigation of Space-Group Ambiguity"
+  authors:
+    - family-names: "Nidamarthi"
+      given-names: "Kutumbarao"
+    - family-names: "Devadasan"
+      given-names: "Velmurugan"
+  notes: "Manuscript under preparation"

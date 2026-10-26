@@ -1,0 +1,20 @@
+[project]
+name = "safe-crystallography"
+version = "0.1.0"
+description = "Statistical Analysis of Structure Factors and Normalised E Values"
+readme = "README.md"
+requires-python = ">=3.9"
+
+dependencies = [
+    "numpy",
+    "pandas",
+    "gemmi"
+]
+
+[project.scripts]
+safe-run-instat = "run_instat:main"
+safe-analyse-instat = "analyse_instat:main"
+safe-prepare-sm = "prepare_sm:main"
+safe-prepare-mx = "prepare_mx:main"
+safe-fix-ins = "fix_ins:main"
+
